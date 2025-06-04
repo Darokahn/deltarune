@@ -45,7 +45,7 @@ function spawnRandomMaltigi() {
     doMaltigiScream();
 }
 
-bouncingDogElement.onclick = () => {spawnRandomMaltigi(); bouncingDog.speed *= 1.1;};
+bouncingDogElement.onclick = () => {spawnRandomMaltigi(); bouncingDog.speed *= 1.5;};
 
 setInterval(() => {
     bouncingDogElement.style.top = bouncingDog.top.toString() + "%";

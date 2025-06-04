@@ -64,8 +64,8 @@ img {
 }
 
 #bouncer {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     position: absolute;
     background-image: url("annoyingdog.png");
     background-size: cover;
